@@ -3,10 +3,15 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="assets/css/main.css")
         title Document
     body 
-        h1(id="headline") This is a pugjs
-        |
-        | 
-        b this is a bold text
-        include ./_test.pug
+        h1 this is a headline
+        
+        header 
+            input(type="button", value="Click on me") 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium repellat ex distinctio libero, aspernatur repellendus exercitationem blanditiis nisi, sequi nulla obcaecati eius, nesciunt doloribus sunt error quasi recusandae odio.
+        
+        footer
+            ul 
+                li #[span item 1]

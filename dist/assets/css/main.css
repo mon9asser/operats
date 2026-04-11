@@ -1,13 +1,3 @@
-body {
+header {
   background-color: red;
-}
-body header {
-  color: red;
-}
-body header ul li a {
-  background-color: red;
-}
-
-textarea {
-  font-size: 10px;
 }
